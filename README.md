@@ -1,16 +1,10 @@
-# GeekTrust_Admin_Ui
-Created with CodeSandbox
-
-All Geektrust challenges are meant to be solved offline.
-
+# HireQuotinet Assignment
 
 The challenge
 
 You work at a startup that is building an interface for admins to see and delete users. The users will be provided via an API. Your job is to build out a working UI. See image below for reference.
 
 Note - this is for reference only. You don't need to build the exact same UI.
-
-
 
 These are the requirements:
 
@@ -26,8 +20,6 @@ These are the requirements:
 
 6. Checkbox on the top left is a shortcut to select or deselect all displayed rows. This should only apply to the ten rows displayed in the current page, and not all 50 rows.
 
-
-
 Users API:
 
 We provide you an Users API to list all the users and their properties.
@@ -40,26 +32,23 @@ Request Type: GET
 
 Sample Response:
 
-
-                        
 [
-    {
-        "id": "1",
-        "name": "Aaron Miles",
-        "email": "aaron@mailinator.com",
-        "role": "member"
-    },
-    {
-        "id": "2",
-        "name": "Aishwarya Naik",
-        "email": "aishwarya@mailinator.com",
-        "role": "member"
-    },
-    {
-        "id": "3",
-        "name": "Arvind Kumar",
-        "email": "arvind@mailinator.com",
-        "role": "admin"
-    }
+{
+"id": "1",
+"name": "Aaron Miles",
+"email": "aaron@mailinator.com",
+"role": "member"
+},
+{
+"id": "2",
+"name": "Aishwarya Naik",
+"email": "aishwarya@mailinator.com",
+"role": "member"
+},
+{
+"id": "3",
+"name": "Arvind Kumar",
+"email": "arvind@mailinator.com",
+"role": "admin"
+}
 ]
-    
